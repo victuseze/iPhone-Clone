@@ -1,0 +1,332 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* font-family: sans-serif; */
+    font-family:  sans-serif;
+}
+.container{
+    width: 100%;
+    background: black;
+}
+nav{
+    width: 100%;
+    margin: 0 auto;
+    /* position: fixed; */
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    background-color: black;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: .8rem;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    padding: .7rem;
+}
+.display{
+    display: flex;
+}
+#media{
+    display: none;
+}
+.fa.fa-bars{
+    display: none;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 1.3rem;
+}
+ul{
+    overflow: none;
+}
+.text-hero{
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+}
+.text-hero h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-top: 3rem;
+}
+.text-hero p{
+    margin: 1rem auto;
+    font-size: 1.4rem;
+    color: white;
+}
+.hero-links a{
+    margin: auto 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(42, 173, 248);
+}
+.hero-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid-page .text-hero h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: black;
+}
+.mid-page .text-hero p{
+    margin: 1rem auto;
+    font-size: 1.4rem;
+    color: black;
+}
+.mid-page img{
+    height: 70%;
+    width: 18%;
+    margin-top: 0rem;
+}
+.mid-page .text-hero{
+    margin-bottom: 0;
+}
+.homepod{
+    background-color: black;
+    height: 10%;
+}
+.homepod img{
+    width: 70%;
+}
+
+.ads{
+    background-color: whitesmoke;
+}
+.ads .row{
+    display: flex;
+}
+.ads .col{
+    flex-basis: 50%;
+    margin: .6rem;
+}
+.ads .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ads img{
+    width: 100%;
+}
+.coltext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.top h2{
+    color: whitesmoke;
+    font-size: 2rem;
+}
+.coltext h2{
+    color: whitesmoke;
+    font-size: 2.5rem;
+}
+.coltext p{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 3px;
+}
+.ads .red{
+    color: red;
+}
+#fit h2{
+    color: black;
+}
+#fit P{
+    color: black;
+}
+#card h2{
+    color: black;
+}
+#card P{
+    color: black;
+}
+.coltext p{
+    color: white;
+}
+#w1, #w2{
+    background-color: black;
+}
+#w1 .links{
+    margin-bottom: 2rem;
+}
+#val-card{
+    /* background-color: #fcd8ca; */
+    position: relative;
+    text-align: center;
+}
+#val-card img{
+    width: 100%;
+    height: 30%;
+}
+#val-card .coltext{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#guy{
+    position: relative;
+    text-align: center;
+}
+#guy .coltext{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#guy p{
+    color: white;
+}
+#fit{
+    background-color: #f5f5f7;
+}
+#card{
+    background-color: #fbfbfd;
+}
+#fit, #card h2, p{
+    color: black;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: 2rem auto;
+    
+}
+.description p{
+    color: grey;
+    font-size: 13.5px;
+    margin-bottom: .5rem;
+    
+}
+hr{
+    background-color: rgb(241, 236, 236);
+    height: 5px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px auto;
+}
+.footer .roww{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 1rem auto;
+}
+.footer{
+    color: rgb(44, 40, 40);
+}
+.acc{
+    margin-bottom: 1rem;
+}
+.footer p{
+    margin-top: .4rem;
+    font-size: 14px;
+    font-weight: 60;
+    color: rgb(119, 115, 108);
+}
+.footer h4{
+    margin-top: 1rem;
+    font-size: 14px;
+    font-weight: 60;
+    color: rgb(19, 17, 17);
+}
+#last{
+    margin-left: 11rem;
+}
+.base{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+}
+.lower{
+    display: flex;
+}
+.base a{
+    text-decoration: none;
+    color: black;
+    margin-top: 0.5rem;
+}
+.line{
+    width: 2px;
+    height: 20px;
+    margin: 0.5rem;
+    background-color: rgb(187, 177, 177);
+}
+#last span{
+    color: blue;
+}
+#apple{
+    color: white;
+    margin-top: .2rem;
+    font-size: 2rem;
+    /* background-color: white; */
+}
+#apple1{
+    color: white;
+    margin-top: .2rem;
+}
+.top{
+    display: flex;
+}
+#val-card h2{
+    color: black;
+}
+#val-card p{
+    color: black;
+}
+.links a{
+    margin-left: 2rem;
+    text-decoration: none;
+}
+.links{
+    margin-top: 1rem;
+}
+#card #apple, #third #apple{
+    color: black;
+}
+.fa{
+    color: white;
+    margin-left: 1rem;
+}
+.fa.fa-play-circle{
+    color: blue;
+    font-size: 1.5rem;
+    margin-left: .2rem;
+}
+#guy .links #try{
+    margin-left: 1px;
+}
+#guy .links{
+    margin-top: 0px;
+}
+#apple2{
+    display: none;
+}
